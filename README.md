@@ -54,3 +54,9 @@ cewl http://192.168.184.180:80/ | grep -v CeWL > custom-wordlist.txt
 ```bash
 gobuster dir -u http://192.168.120.224 -w /usr/share/wordlists/dirb/common.txt
 ```
+
+## Subdomain Enumeration
+
+```bash
+subfinder -d domain.com
+```
