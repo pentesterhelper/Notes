@@ -2,7 +2,10 @@
 
 ## Nmap Scan
 ```bash
-nmap {IP} -p {Port} -A
+ sudo nmap -p- {ip}
+````
+```bash
+ sudo nmap -p 80 {ip} -sV
 ````
 
 ## Netcat Listener
