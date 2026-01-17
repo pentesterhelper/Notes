@@ -70,6 +70,13 @@ gobuster dir -u http://192.168.120.224 -w /usr/share/wordlists/dirb/common.txt
 subfinder -d domain.com
 ```
 
+
+## John Hash 
+
+```bash
+john root_hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+```
+
 # LPE
 
 ## LinPEAS
