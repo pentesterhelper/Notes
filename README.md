@@ -20,6 +20,12 @@
 nc -nlvp {Port}
 ```
 
+## Proper Shell
+
+```bash
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+```
+
 ## Reset Network (Browser / VPN MTU Fix)
 
 ```bash
