@@ -19,6 +19,13 @@
 smbclient -L //<IP>/ -N
 ```
 
+## Python Server Start
+
+```bash
+python -m http.server 80
+```
+
+
 ## Netcat Listener
 
 ```bash
