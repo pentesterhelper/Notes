@@ -36,6 +36,8 @@ nc -nlvp {Port}
 
 ```bash
 python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+export TERM=xterm-256color
 ```
 
 ## Reset Network (Browser / VPN MTU Fix)
